@@ -8,7 +8,7 @@ What can we learn from the location and occupancy rate? What are the biggest fac
 What can we predict from frequency of vacancy?
 Do people occupy full apartments or houses more than individual rooms?
 
-## Grit scale resonses
+## Grit scale responses
 ### https://www.kaggle.com/lucasgreenwell/duckworth-grit-scale-responses
 This dataset has around 4720 observations in it with 98 columns and it is a mix between categorical and numerical values.
 How different are high grit individuals in dealing with failure than low grit individuals?
