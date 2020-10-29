@@ -111,7 +111,7 @@ In order to do hypothesis testing our distribution must be normally distributed.
 - Bootstrapped the sample 5,000 times.
 - Then I could continue since the bootstrap created a a normal distribution. # why?
 The hypothesis test is now
-    - our null hypothesis is that $\mu_\text{lefty} = \mu_\text{righty} = 0$
+    - our null hypothesis is that $\mu_\text{lefty} = \mu_\text{righty} = 0 $
     - our alt hypothesis is that $/mu_/text{lefty} > 0
 - I then have to divide the data between left and right handed people, then subtracted the resample means. I then plotted those recorded differences in means on the below graph with the 95th percentile confidence interval.
 - In the end we can't really say that there is a difference in means, because zero is in our 95th percentile confidence interval. We fail to reject the null hypothesis that there is a difference in grit between the two groups.
