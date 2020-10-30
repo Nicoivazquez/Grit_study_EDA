@@ -163,7 +163,7 @@ Results: Using personality traits as features to predict grit scores.
 
 ![images/Untitled%206.png](images/Untitled%206.png)
 
-To test if the residuals are normally distributed, the common practice is to use a qq-plot (for quantile-quantile-plot). The Q-Q plot plots the quantile of the normal distribution against that of the residuals and checks for the alignment of the quantiles. This tests to see if the model is linear and if there are any outliers. 
+To test if the residuals are normally distributed, the common practice is to use a qq-plot (for quantile-quantile-plot). The QQ plot plots the quantile of the normal distribution against that of the residuals and checks for the alignment of the quantiles. This tests to see if the model is linear and if there are any outliers. 
 
 This is what QQ plot looked before with outliers:
 
@@ -181,7 +181,7 @@ Multicollinearity: These tests are to see if the independent variables are not h
 
 ![images/Untitled%2010.png](images/Untitled%2010.png)
 
-I was not happy with the results from this model, with an R-squared:0.076 this means that only 7.6% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
+I was not happy with the results from this model, with an <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;R^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;R^2" title="R^2" /></a>:0.076 this means that only 7.6% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
 
 ### On to predicting grit from test time, age and education.
 
@@ -194,7 +194,7 @@ Results:
 ![images/Untitled%2011.png](images/Untitled%2011.png)
 
 - The interesting part of these results is the surveyelapse time is the only feature with any significance. By multiplying the coefficient of surveyelapse with seconds you get the increase in grit score per second. .0063 times 60 seconds gives us about a 0.4 increase in grit score per minute taking the grit scale test.
-- R-squared:0.014 this means that only 1.4% of the variance is explained by this model
+- <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;R^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;R^2" title="R^2" /></a>:0.014 this means that only 1.4% of the variance is explained by this model
 - I attribute this to people who tend to be more intentional with their time tend to take time reading the instructions of the test and are more introspective with their responses could lead to them scoring higher.
 - Testing for homoscedasticity - Plot the residuals of the models against the predicted values. Look at the noise, no signal. Variance stays constant thought.
 
@@ -204,7 +204,7 @@ Multicollinearity: These tests are to see if the independent variables are not h
 
 ![images/Untitled%2013.png](images/Untitled%2013.png)
 
-Again, with an R-squared:0.014 this means that only 1.4% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
+Again, with an <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;R^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;R^2" title="R^2" /></a>:0.014 this means that only 1.4% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
 
 ---
 
@@ -241,7 +241,7 @@ The mean of the resample means are:
 
 - Being lefty might effect grit score. A more representative sample of the population is necessary.
 - Being married probability doesn't mean you are any grittier.
-- When trying to build a predictive model $R^2$ was very low and there was no clear signal at all. We might need more data in order to predict anything useful.
+- When trying to build a predictive model <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;R^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;R^2" title="R^2" /></a> was very low and there was no clear signal at all. We might need more data in order to predict anything useful.
 - People have complicated histories. This leads to personalities of all types no matter their backgrounds, more behavioral psychology data is needed.
 
 ### Caveat
