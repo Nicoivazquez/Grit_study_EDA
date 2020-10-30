@@ -112,7 +112,7 @@ The first test I wanted to answer was does being lefty effect grit?
 Hypothesis test set up:
 
 - I wanted my significance level to be at a = 0.05.
-- My null hypothesis is that there is no difference in the average grit score of lefty and right-handed people. $'\mu_\text{lefty} = \mu_\text{righty}'$
+- My null hypothesis is that there is no difference in the average grit score of lefty and right-handed people. [$'\mu_\text{lefty} = \mu_\text{righty}'$]
 - My alt hypothesis is that lefty people have more grit $'\mu_\text{lefty} > \mu_\text{righty}'$
 - In order to do hypothesis testing our distribution must be normally distributed. I checked that the grit scores are normally distributed using the D'Agustino t-test and we got that grit scales scores were not normal.
 
