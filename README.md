@@ -163,6 +163,10 @@ Results: Using personality traits as features to predict grit scores.
 
 ![images/Untitled%206.png](images/Untitled%206.png)
 
+
+
+I was not happy with the results from this model, with an <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;R^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;R^2" title="R^2" /></a>:0.076 this means that only 7.6% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
+
 To test if the residuals are normally distributed, the common practice is to use a qq-plot (for quantile-quantile-plot). The QQ plot plots the quantile of the normal distribution against that of the residuals and checks for the alignment of the quantiles. This tests to see if the model is linear and if there are any outliers. 
 
 This is what QQ plot looked before with outliers:
@@ -181,7 +185,6 @@ Multicollinearity: These tests are to see if the independent variables are not h
 
 ![images/Untitled%2010.png](images/Untitled%2010.png)
 
-I was not happy with the results from this model, with an <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;R^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;R^2" title="R^2" /></a>:0.076 this means that only 7.6% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
 
 ### On to predicting grit from test time, age and education.
 
