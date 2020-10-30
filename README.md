@@ -1,6 +1,6 @@
 # Grit Study EDA
 
-> 👋 Hello I'm Nico a Economist turned Data Scientist currently based in Miami. Feel free to contact me if you find yourself enjoying this project. Welcome.
+> 👋 Hello, I'm Nico an Economist turned Data Scientist currently based in Miami. Feel free to contact me if you find yourself enjoying this project. Welcome.
 
 # ☎️ Contact information
 
