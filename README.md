@@ -113,7 +113,7 @@ Hypothesis test set up:
 
 - I wanted my significance level to be at a = 0.05.
 - My null hypothesis is that there is no difference in the average grit score of lefty and right-handed people. <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\mu_\text{lefty}&space;=&space;\mu_\text{righty}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\mu_\text{lefty}&space;=&space;\mu_\text{righty}" title="\mu_\text{lefty} = \mu_\text{righty}" /></a>
-- My alt hypothesis is that lefty people have more grit $'\mu_\text{lefty} > \mu_\text{righty}'$
+- My alt hypothesis is that lefty people have more grit <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{lefty}&space;>&space;\mu_\text{righty}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{lefty}&space;>&space;\mu_\text{righty}" title="\mu_\text{lefty} > \mu_\text{righty}" /></a>
 - In order to do hypothesis testing our distribution must be normally distributed. I checked that the grit scores are normally distributed using the D'Agustino t-test and we got that grit scales scores were not normal.
 
 ## Stop 🛑
@@ -124,8 +124,8 @@ Hypothesis test set up:
 - Bootstrapped the samples 5,000 times.
 - Then I could continue since the bootstrap created a normal distribution from the means of each resample.
 The hypothesis test is now:
-    - Our null hypothesis is that $\mu_\text{lefty} = \mu_\text{righty} = 0$
-    - Our alt hypothesis is that $\mu_\text{lefty} - \mu_\text{righty} \not= 0$
+    - Our null hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{lefty}&space;=&space;\mu_\text{righty}&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{lefty}&space;=&space;\mu_\text{righty}&space;=&space;0" title="\mu_\text{lefty} = \mu_\text{righty} = 0" /></a>
+    - Our alt hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{lefty}&space;-&space;\mu_\text{righty}&space;\not=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{lefty}&space;-&space;\mu_\text{righty}&space;\not=&space;0" title="\mu_\text{lefty} - \mu_\text{righty} \not= 0" /></a>
 - Now I subtracted the resample means. I then plotted those recorded differences in means on the below graph with the 95th percentile confidence interval.
 - In the end, we can't really say that there is a difference in means because zero is in our 95th percentile confidence interval. We fail to reject the null hypothesis that there is a difference in grit between the two groups.
 
@@ -137,8 +137,8 @@ Simply put we can't confidently say there is a difference in means.
 
 - Testing to see if married people have more grit?
 - The hypothesis test is now:
-    - Our null hypothesis is that $\mu_\text{non-married} = \mu_\text{married} = 0$
-    - Our alt hypothesis is that $\mu_\text{married} = \mu_\text{non-married} \not= 0$
+    - Our null hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{non-married}&space;=&space;\mu_\text{married}&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{non-married}&space;=&space;\mu_\text{married}&space;=&space;0" title="\mu_\text{non-married} = \mu_\text{married} = 0" /></a>
+    - Our alt hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{married}&space;=&space;\mu_\text{non-married}&space;\not=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{married}&space;=&space;\mu_\text{non-married}&space;\not=&space;0" title="\mu_\text{married} = \mu_\text{non-married} \not= 0" /></a>
 - First to divide the data between non-married and married people, resample, then subtracted the resample means. I then plotted those recorded differences in means on the below graph with the 95th percentile confidence interval.
 - In the end, we can't really say that there is a difference in means because zero is in our 95th percentile confidence interval. We fail to reject the null hypothesis that there is a difference in grit between the two groups.
 
@@ -151,7 +151,7 @@ Simply put we can't confidently say there is a difference in means.
 # 📚 Inferential Regression
 
 ## Using OLS to predict grit scores using personality traits.
-$y = \beta_0 + \beta_1 f_1 + \beta_2 f_2 + \cdots + \beta_k f_k + \text{noise}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;y&space;=&space;\beta_0&space;&plus;&space;\beta_1&space;f_1&space;&plus;&space;\beta_2&space;f_2&space;&plus;&space;\cdots&space;&plus;&space;\beta_k&space;f_k&space;&plus;&space;\text{noise}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;y&space;=&space;\beta_0&space;&plus;&space;\beta_1&space;f_1&space;&plus;&space;\beta_2&space;f_2&space;&plus;&space;\cdots&space;&plus;&space;\beta_k&space;f_k&space;&plus;&space;\text{noise}" title="y = \beta_0 + \beta_1 f_1 + \beta_2 f_2 + \cdots + \beta_k f_k + \text{noise}" /></a>
 
 I wanted to predict grit scores using personality traits since personality tests are a dime a dozen while grit tests we have this one and its not as popular as other personality tests. In order to do this I used linear regression with 5 features, the big five traits.
 
@@ -159,7 +159,7 @@ I wanted to predict grit scores using personality traits since personality tests
 
 Results: Using personality traits as features to predict grit scores.
 
-$grit = \beta_0 + \beta_1 O_1 + \beta_2 E_2 + \beta_3 N_3 + \beta_4 A_4 + \beta_5 C_5 + \text{noise}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;grit&space;=&space;\beta_0&space;&plus;&space;\beta_1&space;O_1&space;&plus;&space;\beta_2&space;E_2&space;&plus;&space;\beta_3&space;N_3&space;&plus;&space;\beta_4&space;A_4&space;&plus;&space;\beta_5&space;C_5&space;&plus;&space;\text{noise}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;grit&space;=&space;\beta_0&space;&plus;&space;\beta_1&space;O_1&space;&plus;&space;\beta_2&space;E_2&space;&plus;&space;\beta_3&space;N_3&space;&plus;&space;\beta_4&space;A_4&space;&plus;&space;\beta_5&space;C_5&space;&plus;&space;\text{noise}" title="grit = \beta_0 + \beta_1 O_1 + \beta_2 E_2 + \beta_3 N_3 + \beta_4 A_4 + \beta_5 C_5 + \text{noise}" /></a>
 
 ![images/Untitled%206.png](images/Untitled%206.png)
 
@@ -185,7 +185,7 @@ I was not happy with the results from this model, with an R-squared:0.076 this m
 
 ### On to predicting grit from test time, age and education.
 
-$grit = \beta_0 + \beta_1 age_1 + \beta_2 time_2 + \beta_3 lhs_3 + \beta_4 hs_4 + \beta_5 bs_5 + \beta_6 gs_6 + \text{noise}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;grit&space;=&space;\beta_0&space;&plus;&space;\beta_1&space;age_1&space;&plus;&space;\beta_2&space;time_2&space;&plus;&space;\beta_3&space;lhs_3&space;&plus;&space;\beta_4&space;hs_4&space;&plus;&space;\beta_5&space;bs_5&space;&plus;&space;\beta_6&space;gs_6&space;&plus;&space;\text{noise}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;grit&space;=&space;\beta_0&space;&plus;&space;\beta_1&space;age_1&space;&plus;&space;\beta_2&space;time_2&space;&plus;&space;\beta_3&space;lhs_3&space;&plus;&space;\beta_4&space;hs_4&space;&plus;&space;\beta_5&space;bs_5&space;&plus;&space;\beta_6&space;gs_6&space;&plus;&space;\text{noise}" title="grit = \beta_0 + \beta_1 age_1 + \beta_2 time_2 + \beta_3 lhs_3 + \beta_4 hs_4 + \beta_5 bs_5 + \beta_6 gs_6 + \text{noise}" /></a>
 
 - To use test time and education, I had to clean up the data some more. I had some test times that were too long and probability meant that the person was either unfocused or got up to do something between,  I dropped those. Then I created dummy variables for education in order to be able to have different coefficients for each one.
 
