@@ -206,14 +206,6 @@ Multicollinearity: These tests are to see if the independent variables are not h
 
 Again, with an R-squared:0.014 this means that only 1.4% of the variance is explained by this model. This does not give me confidence in the predictions I can make from this model. 
 
-## Inferential linear regression- aka predicting from model
-
-- 5 assumptions needed to do inferential linear regression
-    1. Confounding in Regression.
-        - Always graph so you can see if you are making a mistake
-        - remember that correlation does not imply causation but only association.
-        - ex:
-
 ---
 
 # 👨🏻‍🏫 Bayesian Inference
