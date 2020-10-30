@@ -28,7 +28,7 @@ Grit was defined as "perseverance and passion for long-term goals" by psychologi
 
 - Data set from [openpsychometrics.org](http://openpsychometrics.org) and posted on Kaggle here: [https://www.kaggle.com/lucasgreenwell/duckworth-grit-scale-responses](https://www.kaggle.com/lucasgreenwell/duckworth-grit-scale-responses)
 - This data was collected through an on-line personality test in 2014.
-- This data set has around 4226 observations in it with 98 columns and it is a mix between categorical and numerical values.
+- This data set has around 4270 observations in it with 98 columns and it is a mix between categorical and numerical values.
 
 The first personality test was big five scales from the international personality item pool.  I learned from the official IPIP scale website that the five types tested are 
 
