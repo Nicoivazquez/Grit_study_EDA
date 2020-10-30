@@ -93,9 +93,9 @@ Finally the online survey included questions about themselves such as: age, gend
 
 2. I did the same for the Grit Scale questions and found that only a pair of questions were correlated over 0.5 and that was question 7 and 8:
 
-7. I often set a goal but later choose to pursue a different one.
+        7. I often set a goal but later choose to pursue a different one.
 
-8. I have difficulty maintaining my focus on projects that take more than a few months to complete.
+        8. I have difficulty maintaining my focus on projects that take more than a few months to complete.
 
 3. There was two times more females in the study than males and less than 1% selected other.
 
