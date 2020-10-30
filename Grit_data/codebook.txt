@@ -27,16 +27,6 @@ Once numbers are assigned for all of the items in the scale, just sum all the va
 
 
 
-
-
-
-
-
-
-
-
-
-
 E1	I am the life of the party.
 E2	I don't talk a lot.
 E3	I feel comfortable around people.
@@ -117,7 +107,7 @@ the lowest score on this scale is 1 (not at all gritty).
 GS1	I have overcome setbacks to conquer an important challenge. 
 GS2	New ideas and projects sometimes distract me from previous ones.
 GS3	My interests change from year to year.
-GS4	Setbacks don't discourage me.
+GS4	Setbacks don't discourage me.
 GS5	I have been obsessed with a certain idea or project for a short time but later lost interest.
 GS6	I am a hard worker.
 GS7	I often set a goal but later choose to pursue a different one.
@@ -174,6 +164,7 @@ married	"What is your marital status?" 1=Never married, 2=Currently married, 3=P
 
 familysize	"Including you, how many children did your mother have?"
 
+voted, married, familysize, religion, orientatin, racem hand, age, enggilsh native, gender, urban, education
 
 NOTE: for the variable race, an error in the programming of the survey left Indigenous Australian, Native American and White responses all registering as the same value.
 
