@@ -252,18 +252,7 @@ This is self assessed personality tests. which means that you yourself are judgi
 
 ### Next steps
 
-outside research on lefties earning less than righties if they don't go to college vs the lefties who go to college actually earn more.
-
+Outside research on lefties earning less than righties if they don't go to college vs the lefties who go to college actually earn more.
 [The evidence that lefties earn more.](https://slate.com/business/2006/08/the-evidence-that-lefties-earn-more.html)
 
 If I was going to take this project further I would work on the model model I made using Linear Regression and combine a large 1 million plus row IPIP data set and try to predict grit scores from personality.  
-
-![images/Untitled%2016.png](images/Untitled%2016.png)
-
-![images/Untitled%2017.png](images/Untitled%2017.png)
-
-![images/Untitled%2018.png](images/Untitled%2018.png)
-
-![images/Untitled%2019.png](images/Untitled%2019.png)
-
-![images/Untitled%2020.png](images/Untitled%2020.png)
