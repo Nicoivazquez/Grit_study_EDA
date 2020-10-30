@@ -246,9 +246,7 @@ The mean of the resample means are:
 
 ### Caveat
 
-It is important to note that all these findings come with a certain caveat, which is that these findings are not representative of people from all walks of life. Mainly because most of the answers were from America and the majority from 20 something-year-old college students. So it is important to make note of that.
-
-This is self assessed personality tests. which means that you yourself are judging if you are "Quick to give up" while a friend might label you "Hard working". 
+It is important to note that all these findings come with a certain caveat, which is that these findings are not representative of people from all walks of life. Mainly because most of the answers were from America and the majority from 20 something-year-old college students. So it is important to make note of that. This also happens to be a self assessed personality tests. Which means that you yourself might say you are "Quick to give up" while a friend might label you "Hard working". 
 
 ### Next steps
 
