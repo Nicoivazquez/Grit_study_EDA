@@ -124,7 +124,7 @@ Hypothesis test set up:
 - Bootstrapped the samples 5,000 times.
 - Then I could continue since the bootstrap created a normal distribution from the means of each resample.
 The hypothesis test is now:
-    - Our null hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{lefty}&space;=&space;\mu_\text{righty}&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{lefty}&space;=&space;\mu_\text{righty}&space;=&space;0" title="\mu_\text{lefty} = \mu_\text{righty} = 0" /></a>
+    - Our null hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{lefty}&space;-&space;\mu_\text{righty}&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{lefty}&space;-&space;\mu_\text{righty}&space;=&space;0" title="\mu_\text{lefty} - \mu_\text{righty} = 0" /></a>
     - Our alt hypothesis is that <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\mu_\text{lefty}&space;-&space;\mu_\text{righty}&space;\not=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\mu_\text{lefty}&space;-&space;\mu_\text{righty}&space;\not=&space;0" title="\mu_\text{lefty} - \mu_\text{righty} \not= 0" /></a>
 - Now I subtracted the resample means. I then plotted those recorded differences in means on the below graph with the 95th percentile confidence interval.
 - In the end, we can't really say that there is a difference in means because zero is in our 95th percentile confidence interval. We fail to reject the null hypothesis that there is a difference in grit between the two groups.
